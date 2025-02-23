@@ -1,0 +1,136 @@
+html {
+    font-family: "Archivo Narrow", serif;
+}
+
+header {
+    background-color: rgba(225, 0, 0, .5);
+    padding: 166px 0 188px 0;
+    background-image: url('../images/header.jpg');
+}
+
+header h1 {
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-size: 60pt;
+    line-height: 1;
+    color: rgb(11, 11, 11);
+}
+
+header h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1;
+    margin: 0;
+    color: rgb(11, 11, 11);
+}
+
+h3 {
+    margin: 0 0 38px 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+section#intro p {
+    margin-bottom: -2px;
+}
+
+section {
+    padding-top: 48px;
+}
+
+section div.column {
+    width: 960px;
+    margin: auto;
+}
+
+section#intro {
+    background-color: rgb(139, 124, 111);
+    color: rgb(242, 242, 242);
+    padding-bottom: 58px;
+}
+
+section#intro img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    border: 1px solid black;
+    margin: 0 0 20px 38px;
+}
+
+section#grid .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    margin-bottom: 40px;
+}
+
+section#grid .grid-item {
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+    margin-bottom: 24px;
+}
+
+section#grid .grid-item img {
+    width: 201px;
+    height: 150px;
+}
+
+section#grid p {
+    width: 211px;
+}
+
+section#grid h4 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+section#grid p {
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+section#grid .photo-text {
+    margin-left: 11px;
+}
+
+section#banner {
+    background-color: rgb(139, 124, 111);
+    color: rgb(242, 242, 242);
+    padding-bottom: 100px;
+}
+
+section#banner .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#banner p {
+    margin: 0;
+    font-size: 26px;
+    width: 705px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+
+}
+
+footer p {
+    color: rgb(242, 242, 242);
+    width: 960px;
+    margin: auto;
+    padding: 40px 0px 40px 0px;
+}
