@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    font-family: "Fredoka", sans-serif;
+}
+
+.foreground {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.foreground img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    z-index: 3;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    top: 0;
+}
+
+header img {
+    width: 100px;
+    margin-top: -20px;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    gap: 2vw;
+    display: flex;
+    padding: 0;
+
+}
+
+.nav-links li a {
+    background-color: #233E29;
+    color: #D9D6D3;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 20px;
+    font-size: 1.5vw;
+}
+
+.nav-links li a:hover {
+    color: #000000;
+    background-color: #D9D6D3;
+}
+
+section {
+    position: relative;
+    margin-left: 6vw;
+    margin-right: 30vw;
+    margin-bottom: 20px;
+    z-index: -2;
+    background-color: #CDB5A0;
+    padding: 20px;
+    box-shadow: -10px -10px 0px 0px #7B6B5E;
+}
+
+#HomePage {
+    margin-top: 40vh;
+}
+
+#Etymology,
+#Characteristics,
+#Lifetime,
+#Behavior,
+#Taxonomy {
+    scroll-margin-top: 40vh;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 200px;
+    margin: 0 0 1em 1em;
+    text-align: center;
+    background-color: #D9D6D3;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.image-box img {
+    width: 90%;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+.caption {
+    font-size: 0.9em;
+    color: #555;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
