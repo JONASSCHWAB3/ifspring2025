@@ -222,11 +222,11 @@ Responsive (Smaller View) Styles
         display: flex;
     }
 
-    #desktop-img {
+    .foreground #desktop-img {
         display: none;
     }
 
-    #mobile-img {
+    .foreground #mobile-img {
         display: block;
     }
 
