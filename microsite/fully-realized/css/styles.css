@@ -31,8 +31,8 @@ Foreground Image Styles
     top: 0;
 }
 
-#mobile-view {
-    display: none;
+.foreground #mobile-img {
+  display: none;
 }
 
 /* =======================
