@@ -31,6 +31,10 @@ Foreground Image Styles
     top: 0;
 }
 
+#mobile-view {
+    display: none;
+}
+
 /* =======================
 Header Styles
 ======================= */
