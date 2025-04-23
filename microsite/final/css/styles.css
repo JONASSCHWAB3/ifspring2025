@@ -194,7 +194,7 @@ footer {
     padding: 5px;
     display: flex;
     color: #D9D6D3;
-    z-index: 5;
+    z-index: -2;
 }
 
 footer p {
